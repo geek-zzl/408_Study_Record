@@ -32,7 +32,7 @@ public:
             } else {
                 p = p->next;
                 st[x] = true;   
-            }
+            } 
         }
         return head;
     }
