@@ -1,11 +1,17 @@
 #include <iostream>
-#include <algorithm>
-#include <cstring>
-#include <stack>
-#include <unordered_map>
 
 using namespace std;
+typedef struct node{
+    int val;
+    node *next;
+} node;
 
-int main() { 
+// front == rear;
+// rear->next == front;
+
+node *init() {
+    
+}
+int main() {
 
 }
