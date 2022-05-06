@@ -1,6 +1,8 @@
 // 3607. 打印日期
 // 给出年份y和一天中的第d天, 算出第d天是几月几号
 // n组数据 yyyy-mm-dd
+// 100 组 数据 最大 366 天
+// 366 * 100
 #include <iostream>
 #include <cstring>
 #include <algorithm>
