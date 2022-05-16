@@ -34,6 +34,9 @@ int main(){
             default : break;
         }
     }
-    printf("%d %d% lld\n", man, women, sum / count);
+    if (count)
+        printf("%d %d% lld\n", man, women, sum / count);
+    else
+        printf("%d %d% lld\n", man, women, 0);
     return 0;
 }

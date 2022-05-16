@@ -22,7 +22,7 @@ void preorder(node *p) {
 }
 
 void level(node *p) {
-    node *que[120];
+    node *que[120]; // 指针数组 队列
     int front = 0, rear = 1;
     que[0] = p;
     while (front != rear) {
