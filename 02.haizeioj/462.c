@@ -1,3 +1,4 @@
+// 462 注册账号
 #include<stdio.h> 
 #include <string.h>
 typedef struct person{ 
